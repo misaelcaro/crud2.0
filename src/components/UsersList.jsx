@@ -11,7 +11,7 @@ const UsersList = ({
   handleClickShowModal
 }) => {
   return (
-    <section classNeme="tarjetas">
+    <section className="tarjetas">
       {users.map(user => (
         <UserCard
           key={user.id}

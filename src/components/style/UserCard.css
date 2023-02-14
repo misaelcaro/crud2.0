@@ -10,7 +10,7 @@ body {
    height: 350px;
    border-style: groove;
    border-radius: 5px;
-   position: relative;
+   position:relative;
    border-color: rgb(246, 250, 250);
 
 }
