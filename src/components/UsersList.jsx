@@ -1,5 +1,6 @@
 import React from 'react'
-import UserCard from './userCard'
+import UserCard from './UserCard'
+import './style/UserList.css'
 
 
 
@@ -10,7 +11,7 @@ const UsersList = ({
   handleClickShowModal
 }) => {
   return (
-    <section>
+    <section classNeme="tarjetas">
       {users.map(user => (
         <UserCard
           key={user.id}

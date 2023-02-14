@@ -9,18 +9,29 @@ body {
    width: 300px;
    height: 350px;
    border-style: groove;
-   border-radius: 7px;
+   border-radius: 5px;
    position: relative;
    border-color: rgb(246, 250, 250);
 
-
 }
 
-.title__card {
+.card__title {
 text-align: center;
+font-size: 30px;
+margin: 10px 0;
 
 }
 
+.card__content{
+  
+   padding: 20px;
+   position: relative;
+
+}
+span{
+   color: rgb(137, 140, 143);
+  
+}
 
 .trash {
    position: absolute;
@@ -43,12 +54,9 @@ text-align: center;
 }
 
 .trash__icon {
-   
+
 }
 
-.gift {
-   color: rgb(102, 102, 211);
-}
 
 .pencil {
 
@@ -65,5 +73,6 @@ text-align: center;
 .pencil__icon {}
 
 hr {
-   color: rgb(197, 200, 206);
+   color: rgb(137, 140, 143);
+   
 }
